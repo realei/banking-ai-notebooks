@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project specific
+data/
+*.csv
+*.xlsx
+!notebooks/data/.gitkeep
+
+# macOS
+.DS_Store
